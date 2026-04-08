@@ -184,8 +184,6 @@ The Inference Interruptor defines a system that enforces it.
 
 ## Implementation
 
-## Implementation
-
 This architecture is implemented in QuantaIQ Core and QuantaIQ Studio.
 
 These systems are currently maintained as private repositories while the architecture and governance model are being finalized.

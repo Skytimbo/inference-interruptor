@@ -1,86 +1,196 @@
-# QuantaIQ — The Inference Interruptor
-
-**Nothing Hidden. Nothing Lost. Nothing Fabricated.**
-
-*Evidence must remain deterministic. Interpretation may evolve.*
 
 ---
 
-## The Problem
+### 1. Deterministic Measurement
 
-### Documents are not truth
+The system extracts only what is physically present:
 
-They are compressed decisions about truth—what to include, what to omit, what to summarize, what to ignore.
+- text spans  
+- structural layout  
+- numeric values  
+- positional relationships  
 
-A bank statement is not your finances.  
-A medical record is not your health.  
-A contract is not the agreement—it is a representation of it.
+No classification.  
+No interpretation.  
+No probabilistic reasoning.
 
-Yet modern AI systems do something subtle and dangerous:
+Every observation is:
 
-> They treat documents as ground truth.
+> **Deterministic, reproducible, and anchored to verifiable locations in the source**
 
-They extract patterns, infer meaning, and generate conclusions.
+All extractors run on all documents.
 
-Each layer compounds uncertainty—and presents it as certainty.
-
-> **Inference built on inference.  
-Confidence without traceability.  
-Answers that look precise but cannot be verified.**
-
-This is not a model problem.  
-It is an **architecture problem**.
-
-QuantaIQ does not make AI smarter.  
-It makes AI **accountable to evidence**.
+> The system does not decide what matters before measuring.  
+> It measures everything first.
 
 ---
 
-## The Insight
+### 2. Governed Interpretation
 
-### The missing boundary
+Only after measurement does interpretation begin.
 
-Before AI can reason about a document, it must answer a simpler question:
+The system may:
 
-> **What is actually there?**
+- classify  
+- infer  
+- summarize  
+- connect  
 
-Not what it means.  
-Not what it implies.  
-Not what it suggests.
+But:
 
-But what is physically present in the source:
-- text  
-- numbers  
-- structure  
-- layout  
+> **Every claim must prove itself**
 
-Anchored to verifiable locations in the original artifact.
+Each conclusion carries a provenance chain:
 
-Modern systems blur this boundary.
+- claim  
+- derivations  
+- measured evidence  
+- source location  
 
-They mix:
-- observation  
-- interpretation  
+If it cannot be traced, it is not allowed.
+
+---
+
+### 3. Enforcement, Not Suggestion
+
+Interpretation is not trusted by default.
+
+Every claim passes through **Gatekeeper**, which enforces:
+
+- structural correctness  
+- provenance completeness  
+- epistemic consistency  
+
+Invalid claims are not flagged.  
+They are not warned.
+
+> **They are rejected.**
+
+This is not a wrapper around AI models.
+
+> It is a structural constraint on how AI systems are allowed to reason about documents.
+
+---
+
+## The Difference
+
+### Traditional vs QuantaIQ
+
+| Traditional AI | QuantaIQ |
+|----------------|---------|
+| Probabilistic extraction | Deterministic measurement |
+| Hidden transformations | Explicit provenance |
+| Black-box reasoning | Auditable derivation chains |
+| "Trust the model" | "Trace the evidence" |
+
+---
+
+Every output answers:
+
+> **Where did this come from?**
+
+Not generally. Specifically:
+
+- which document  
+- which region  
+- which evidence  
+- which transformation  
+
+This enables:
+
+> **Accountability**
+
+---
+
+## The Standard
+
+### NIL — Nothing Inferred or Lost
+
+A new standard for document intelligence:
+
+- **Nothing Hidden** — all transformations are visible  
+- **Nothing Lost** — no data silently discarded  
+- **Nothing Fabricated** — no inference presented as fact  
+
+NIL is not a policy.
+
+> It is enforced by architecture.
+
+---
+
+## The Stakes
+
+### Why this matters now
+
+AI is moving into critical domains:
+
+- finance → incorrect numbers  
+- law → unverifiable claims  
+- medicine → unsafe decisions  
+
+These are not UX problems.
+
+> They are **epistemic failures**
+
+Failures in how systems handle:
+
+- truth  
+- evidence  
 - inference  
 
-into a single opaque step.
+This problem is no longer theoretical.
 
-That is why they cannot be trusted.
-
----
-
-## The Architecture
-
-### The Inference Interruptor
-
-QuantaIQ defines a new category:
-
-> Systems that separate measurement from interpretation—and enforce that separation by design.
-
-Its role is simple:
-
-> **Interrupt inference before it compounds**
+> It is already shaping real-world decisions.
 
 ---
 
-### System Flow
+## What This Enables
+
+- Multiple interpretations from the same evidence  
+- Audit-ready AI outputs  
+- Traceable reasoning  
+- Local-first privacy  
+
+---
+
+## The Future
+
+QuantaIQ does not compete on:
+
+- model size  
+- prompt engineering  
+- interface polish  
+
+It competes on:
+
+> **Epistemic integrity**
+
+The next generation of AI will be judged by:
+
+> Whether its outputs can be trusted
+
+---
+
+## Relationship to Non-Inference Principles (NIL)
+
+This architecture operationalizes the Non-Inference Principles (NIP v1.0):
+
+- https://github.com/Skytimbo/non-inference-principles
+
+NIL defines the standard.  
+The Inference Interruptor defines a system that enforces it.
+
+---
+
+## Implementation
+
+This architecture is implemented in:
+
+- https://github.com/Skytimbo/qIQ-core-V1
+
+---
+
+## Final Principle
+
+> **Evidence must remain deterministic.  
+Interpretation may evolve.**
